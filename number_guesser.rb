@@ -15,7 +15,7 @@
 
 # Trap ctrl-c and exit gracefully.
 trap("SIGINT") do
-	puts "\n" + "\033[31m" + "Ctrl-c captured, you loose!\n"
+	puts "\n" + "\033[31m" + "Ctrl-c captured, you lose!\n"
 	exit 1
 end
 
