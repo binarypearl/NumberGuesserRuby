@@ -1,5 +1,7 @@
 #!/usr/bin/ruby
 
+# blah
+
 trap("SIGINT") do
 	puts "\nCtrl-c captured, you loose!\n"
 	exit 1
